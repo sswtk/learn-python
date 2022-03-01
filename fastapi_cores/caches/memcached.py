@@ -15,7 +15,7 @@ from typing import Tuple
 
 from aiomcache import Client
 
-from . import CacheBase
+from fastapi_cores import CacheBase
 
 
 class MemcachedBackend(CacheBase):

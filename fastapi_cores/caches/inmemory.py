@@ -11,7 +11,7 @@ from asyncio import Lock
 from dataclasses import dataclass
 from typing import Dict, Optional, Tuple
 
-from . import CacheBase
+from fastapi_cores import CacheBase
 
 
 @dataclass

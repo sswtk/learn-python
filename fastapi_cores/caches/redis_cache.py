@@ -14,7 +14,7 @@ https://aioredis.readthedocs.io/en/latest/
 from typing import Tuple
 
 from aioredis import Redis
-from . import CacheBase
+from fastapi_cores import CacheBase
 
 
 class RedisBackend(CacheBase):
